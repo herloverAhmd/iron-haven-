@@ -1,0 +1,323 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iron Haven</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #333;
+      }
+      .navbar {
+        background-color: black;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        color: white;
+      }
+      .logo {
+        width: 50px;
+        height: 50px;
+        background-image: url("imgs/logo.png");
+        background-size: cover;
+        border-radius: 50%;
+      }
+      .navbar ul {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+      }
+      .navbar ul li {
+        margin: 0 10px;
+      }
+      .navbar ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      .navbar ul li a:hover {
+        color: lightblue;
+      }
+      #Home {
+        height: 100vh;
+        background-image: url("imgs/bg.webp");
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 70px;
+      }
+      #about {
+        padding: 20px;
+        background-color: white;
+        text-align: center;
+      }
+      #about h2 {
+        font-size: 24px;
+      }
+      #about p {
+        font-size: 16px;
+        color: gray;
+      }
+      #services {
+        padding: 20px;
+        background-color: black;
+        color: white;
+        text-align: center;
+      }
+      .service {
+        display: inline-block;
+        margin: 10px;
+        text-align: center;
+      }
+      .service img {
+        width: 50px;
+      }
+      .service h3 {
+        font-size: 18px;
+      }
+      #testimonials {
+        padding: 20px;
+        background-color: #f4f4f4;
+        text-align: center;
+      }
+      .testimonial-card {
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        display: inline-block;
+        width: 200px;
+      }
+      #contact {
+        padding: 20px;
+        background-color: white;
+        text-align: center;
+      }
+      #contact form {
+        max-width: 400px;
+        margin: auto;
+      }
+      #contact input,
+      #contact textarea {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 5px;
+      }
+      #contact button {
+        padding: 10px;
+        background-color: green;
+        color: white;
+        border: none;
+      }
+      #footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 10px;
+      }
+      h1 {
+        text-align: center;
+        color: #333;
+        margin-top: 20px;
+      }
+      .plans {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+      }
+      .plan {
+        border: 2px solid #555;
+        border-radius: 10px;
+        padding: 15px;
+        width: 250px;
+        background-color: #fff;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      .plan h2 {
+        font-size: 22px;
+        color: #444;
+        text-align: center;
+      }
+      .plan p {
+        font-size: 16px;
+        color: #666;
+        text-align: center;
+      }
+      .plan .price {
+        font-size: 18px;
+        color: #d9534f;
+        font-weight: bold;
+        text-align: center;
+        margin: 10px 0;
+      }
+      .plan button {
+        display: block;
+        margin: 0 auto;
+        background-color: #5cb85c;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .plan button:hover {
+        background-color: #4cae4c;
+      }
+      .coaches-section {
+        display: flex;
+        justify-content: center;
+        gap: 120px;
+        padding: 75px 0px;
+      }
+      .coach-card {
+        display: inline-block;
+        text-align: center;
+        padding: 10px;
+        background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        width: 200px;
+      }
+      .coach-card img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+      }
+      .coach-card h3 {
+        margin: 10px 0;
+        font-size: 1.2em;
+        color: rgb(0, 0, 0);
+      }
+      .social-links a {
+        margin: 0 5px;
+        text-decoration: none;
+        color: #3218dc;
+        font-size: 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo"></div>
+      <ul>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="shop.html">Shop</a></li>
+      </ul>
+    </div>
+    <div id="Home">Welcome to Iron Haven Gym</div>
+    <div id="about">
+      <h2>About Us</h2>
+      <p>
+        Iron Haven Gym, located in the heart of Tunisia, is a premier fitness
+        destination dedicated to helping individuals achieve their health and
+        wellness goals. Known for its state-of-the-art equipment, professional
+        trainers, and welcoming atmosphere, Iron Haven has become a trusted name
+        in the fitness community. Whether you're a beginner looking to start
+        your fitness journey or an experienced athlete aiming to push your
+        limits, our gym offers a wide range of services tailored to meet your
+        needs. From weightlifting and cardio to yoga and personalized training
+        programs, we provide everything you need to stay motivated and on track.
+        At Iron Haven, we believe in fostering a supportive environment where
+        members can connect, grow, and thrive together. Join us and experience
+        the perfect blend of modern facilities and a commitment to excellence
+        that sets us apart as one of Tunisia's top fitness centers.
+      </p>
+    </div>
+    <div id="services">
+      <h2>Our Services</h2>
+      <div class="service">
+        <img src="imgs/wl.png" alt="Weightlifting" />
+        <h3>Weightlifting</h3>
+      </div>
+      <div class="service">
+        <img src="imgs/yoga.png" alt="Yoga" />
+        <h3>Yoga</h3>
+      </div>
+      <div class="service">
+        <img src="imgs/cardio.png" alt="Cardio" />
+        <h3>Cardio</h3>
+      </div>
+    </div>
+    <h1>Gym Plans</h1>
+    <div class="plans">
+      <div class="plan">
+        <h2>Basic</h2>
+        <p>Access to gym equipment</p>
+        <p>Hours: 9 AM - 5 PM</p>
+        <div class="price">$20/month</div>
+        <button onclick="location.href='sub.html'">Join Now</button>
+      </div>
+      <div class="plan">
+        <h2>Standard</h2>
+        <p>Includes group classes</p>
+        <p>Hours: 6 AM - 10 PM</p>
+        <div class="price">$40/month</div>
+        <button onclick="location.href='sub.html'">Join Now</button>
+      </div>
+      <div class="plan">
+        <h2>Premium</h2>
+        <p>All-inclusive access</p>
+        <p>Hours: 24/7</p>
+        <div class="price">$60/month</div>
+        <button onclick="location.href='sub.html'">Join Now</button>
+      </div>
+    </div>
+    <section class="coaches-section">
+      <div class="coach-card">
+        <img src="imgs/lex.jpg" alt="lex" />
+        <h3>Lexx Little</h3>
+        <div class="social-links">
+          <a href="https://www.instagram.com/lexx.little" target="_blank">Instagram</a>
+        </div>
+      </div>
+      <div class="coach-card">
+        <img src="imgs/christian.jpg" alt="chris" />
+        <h3>Christian Gaiera</h3>
+        <div class="social-links">
+          <a href="https://www.instagram.com/christrennn" target="_blank">Instagram</a>
+        </div>
+      </div>
+      <div class="coach-card">
+        <img src="imgs/michael.jpg" alt="mike" />
+        <h3>Michael Gaiera</h3>
+        <div class="social-links">
+          <a href="https://www.instagram.com/trenbrahhh" target="_blank">Instagram</a>
+        </div>
+      </div>
+    </section>
+    <div id="testimonials">
+      <h2>Gym Reviews</h2>
+      <div class="testimonial-card">
+        <p>"Great gym!"</p>
+        <span>- Alex</span>
+      </div>
+      <div class="testimonial-card">
+        <p>"Love the classes."</p>
+        <span>- Jamie</span>
+      </div>
+    </div>
+    <div id="contact">
+      <h2>Contact Us</h2>
+      <form>
+        <input type="text" placeholder="Name" />
+        <input type="email" placeholder="Email" />
+        <textarea placeholder="Message"></textarea>
+        <button>Send</button>
+      </form>
+    </div>
+  </body>
+</html>
